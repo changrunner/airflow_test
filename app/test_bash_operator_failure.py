@@ -8,6 +8,7 @@ from zeppos_logging.app_logger_json_conifg_name import AppLoggerJsonConfigName
 
 def main():
     AppLogger.logger.info(f"Start test_bash_operator_failure")
+    a = 1 / 0
     AppLogger.logger.info(f"End test_bash_operator_failure")
 
 
